@@ -1,5 +1,5 @@
 var video = document.getElementById('video');
-var videoSrc = `http://localhost:8080/watch/master.m3u8`;
+var videoSrc = `http://localhost:8080/watch/playlist.m3u8`;
 if (Hls.isSupported()) {
     var hls = new Hls();
     hls.loadSource(videoSrc);
