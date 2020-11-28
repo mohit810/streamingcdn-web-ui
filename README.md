@@ -20,7 +20,7 @@ In this module you will find 2 web pages for the [Webrtc -> HLS](https://github.
 * Communicating with the server is done by the js itself.  
 * If you want to know the request that is sent to server via `POST` method, refer to the screenshot attached below. The `Webrtc -> HLS server` will respond with an offer as a response to the `POST`.
 
-![](https://github.com/mohit810/streamingcdn-web-ui/blob/main/Screenshot.png)
+![](https://github.com/mohit810/streamingcdn-web-ui/blob/master/Screenshot.png)
 
 ### Links for both the pages when the server is running
 1) [localhost:8000/broadcast](http://localhost:8000/broadcast)
