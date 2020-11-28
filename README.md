@@ -22,6 +22,6 @@ In this module you will find 2 web pages for the [Webrtc -> HLS](https://github.
 
 ![](https://github.com/mohit810/streamingcdn-web-ui/blob/master/Screenshot.png)
 
-### Links for both the pages when the server is running
+### Links for both the pages(when the server is running)
 1) [localhost:8000/broadcast](http://localhost:8000/broadcast)
 2) [localhost:8000/viewer](http://localhost:8000/viewer)
