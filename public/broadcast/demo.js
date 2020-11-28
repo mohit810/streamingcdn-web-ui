@@ -39,7 +39,7 @@ function postRequest () {
         "streamKey": streamKey
     })
     console.log(data);
-    const url = `http://localhost:8080/sdp`;
+  const url = `${window.location.protocol}//${window.location.hostname}:8080/sdp`;
     (async () => {
         const rawResponse = await fetch(url, {
         method : "POST",
@@ -61,12 +61,7 @@ window.createSession = isPublisher => {
     alert("please enter a room name.")
   } else{
     streamKey = inputstreamKey.value
-    let pc = new RTCPeerConnection({
-      iceServers: [
-        {'urls': 'stun:stun.services.mozilla.com'},
-        {'urls': 'stun:stun.l.google.com.19302'}
-      ]
-    })
+    let pc = new RTCPeerConnection()
   pc.oniceconnectionstatechange = e => log(pc.iceConnectionState)
   pc.onicecandidate = event => {
     if (event.candidate === null) {
