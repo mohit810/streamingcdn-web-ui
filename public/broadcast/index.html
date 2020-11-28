@@ -5,22 +5,15 @@
     <title>Broadcast</title>
 </head>
 <body>
-<div id="signalingContainer" style="display: none">
-    Browser base64 Session Description<br />
-    <textarea id="localSessionDescription" readonly="true"></textarea> <br />
-
-    Golang base64 Session Description<br />
-    <textarea id="remoteSessionDescription"></textarea> <br/>
-    <br/>
-</div>
-
 <br />
-
-Video<br />
+<div id="videoText" style="visibility: hidden">
+    Video:
+</div>
+<br />
 <div id="localVideos"></div>
 <br/>
 <div id="selectRoom">
-    <label>Type Stream key</label>
+    <label>Enter something Unique:</label>
     <input type="text" id="streamkey"/>
 </div>
 <br/>
