@@ -1,6 +1,5 @@
 let divSelectRoom = document.getElementById("selectRoom")
 let inputstreamKey = document.getElementById("streamkey")
-let signalingContainer = document.getElementById('signalingContainer')
 let createSessionButton = document.getElementsByClassName('createSessionButton')
 let videoText = document.getElementById("videoText")
 
@@ -37,7 +36,7 @@ function postRequest () {
         "streamKey": streamKey
     })
     console.log(data);
-    const url = `http://${window.location.protocol}//${window.location.hostname}:8080/sdp`;
+    const url = `${window.location.protocol}//${window.location.hostname}:8080/sdp`;
     (async () => {
         const rawResponse = await fetch(url, {
             method : "POST",

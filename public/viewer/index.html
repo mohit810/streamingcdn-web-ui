@@ -5,7 +5,15 @@
     <title>Viewer</title>
 </head>
 <body>
+<div id="stream">
+    <label>Enter something Unique:</label>
+    <input type="text" id="streamkey"/>
+    <br/>
+    <button onclick="consume()">Start Watching</button>
+</div>
+<div id="consumer" style="visibility: hidden">
 <video id="video" autoplay controls height="400" width="800"></video>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest/dist/hls.min.js"></script>
 <script src="demo.js"></script>
 </body>

@@ -15,13 +15,13 @@ In this module you will find 2 web pages for the [Webrtc -> HLS](https://github.
 
 ### Start a publisher
 
-* Paste any random thing.
+* Open [localhost:8000/broadcast](http://localhost:8000/broadcast) and Paste the streamKey(this is the streamKey which will be used by the viewers to watch the stream).
 * Click `Publish a Broadcast` and now you don't have to do anything.
 * Communicating with the server is done by the js itself.  
 * If you want to know the request that is sent to server via `POST` method, refer to the screenshot attached below. The `Webrtc -> HLS server` will respond with an offer as a response to the `POST`.
 
 ![](https://github.com/mohit810/streamingcdn-web-ui/blob/master/Screenshot.png)
 
-### Links for both the pages(when the server is running)
-1) [localhost:8000/broadcast](http://localhost:8000/broadcast)
-2) [localhost:8000/viewer](http://localhost:8000/viewer)
+### Start a publisher
+
+* Open [localhost:8000/viewer](http://localhost:8000/viewer) and Past the streamKey that the Broadcaster used for starting the stream.
