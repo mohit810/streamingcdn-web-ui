@@ -57,12 +57,7 @@ window.createSession = isPublisher => {
         alert("Please enter a something unique.")
     } else{
         streamKey = inputstreamKey.value
-        let pc = new RTCPeerConnection({
-            iceServers: [
-                {'urls': 'stun:stun.services.mozilla.com'},
-                {'urls': 'stun:stun.l.google.com.19302'}
-            ]
-        })
+        let pc = new RTCPeerConnection()
         pc.oniceconnectionstatechange = e => log(pc.iceConnectionState)
         pc.onicecandidate = event => {
             if (event.candidate === null) {
