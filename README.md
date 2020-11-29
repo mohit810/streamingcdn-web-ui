@@ -1,4 +1,4 @@
-# This is Web UI for `Webrtc -> HLS` Project
+# This is Web UI for `Webrtc -> HLS` Project v3.1
 
 In this module you will find 2 web pages for the [Webrtc -> HLS](https://github.com/mohit810/streamingcdn) Project. 
 1) Broadcasting Page 
