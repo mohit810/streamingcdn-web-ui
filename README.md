@@ -22,6 +22,6 @@ In this module you will find 2 web pages for the [Webrtc -> HLS](https://github.
 
 ![](https://github.com/mohit810/streamingcdn-web-ui/blob/master/Screenshot.png)
 
-### Start a publisher
+### Start a Viewer 
 
 * Open [localhost:8000/viewer](http://localhost:8000/viewer) and Past the streamKey that the Broadcaster used for starting the stream.
